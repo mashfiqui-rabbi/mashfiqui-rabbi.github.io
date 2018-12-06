@@ -1,6 +1,68 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
 
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.modal-header {
+	background-color: #c0392b;
+	color: #ffffff;
+}
+.modal-header h4 {
+	color: #ffffff;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.anchor2 {
+    display: block;
+    position: relative;
+    top: -20px;
+    visibility: hidden;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .2s ease;
+  background-color: #c0392b;
+}
+
+
+.thumbnail:hover .overlay2 {
+  opacity: 0.95;
+}
+
+.text2 {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 48%;
+  left: 48%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+i.fa{
+ border: 0x solid grey;
+}
+
+
 body, html{
 	font-family: 'Lato', sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -567,3 +629,4 @@ nav#footer p{
 	background: #FCAC45;
 	border-color: #FCAC45;
 	color: #ffffff;
+}
