@@ -1,6 +1,29 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
 
+
+.thumbnail2 {
+	position: relative;
+	width: 150px;
+	height: 100px;
+	overflow: hidden;
+  }
+  .thumbnail2 img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	height: 100%;
+	width: auto;
+	-webkit-transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+			transform: translate(-50%,-50%);
+  }
+  .thumbnail2 img.portrait {
+	width: 100%;
+	height: auto;
+  }
+
+
 .resp-container {
     position: relative;
     overflow: hidden;
