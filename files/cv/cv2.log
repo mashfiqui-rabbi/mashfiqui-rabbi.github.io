@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.24)  16 DEC 2023 00:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=latex 2022.9.24)  5 JAN 2025 22:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -41,7 +41,7 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
 )
 (/usr/local/texlive/2022basic/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
@@ -133,23 +133,29 @@ package with kernel methods
 \c@Item=\count199
 \c@Hfootnote=\count266
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
+Package hyperref Info: Driver (default): hdvips.
 
-(/usr/local/texlive/2022basic/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
+(/usr/local/texlive/2022basic/texmf-dist/tex/latex/hyperref/hdvips.def
+File: hdvips.def 2022-02-21 v7.00n Hyperref driver for dvips
 
-(/usr/local/texlive/2022basic/texmf-dist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
-kage
-with kernel methods
-)
-\Fld@listcount=\count267
-\c@bookmark@seq@number=\count268
+(/usr/local/texlive/2022basic/texmf-dist/tex/latex/hyperref/pdfmark.def
+File: pdfmark.def 2022-02-21 v7.00n Hyperref definitions for pdfmark specials
+\pdf@docset=\toks17
+\pdf@box=\box50
+\pdf@toks=\toks18
+\pdf@defaulttoks=\toks19
+\HyField@AnnotCount=\count267
+\Fld@listcount=\count268
+\c@bookmark@seq@number=\count269
 
 (/usr/local/texlive/2022basic/texmf-dist/tex/latex/rerunfilecheck/rerunfilechec
 k.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-
+ (/usr/local/texlive/2022basic/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
 (/usr/local/texlive/2022basic/texmf-dist/tex/generic/uniquecounter/uniquecounte
 r.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
@@ -158,16 +164,16 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
 \Hy@SectionHShift=\skip49
-)
+))
 (/usr/local/texlive/2022basic/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (/usr/local/texlive/2022basic/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count269
-\Gm@cntv=\count270
-\c@Gm@tempcnt=\count271
+\Gm@cnth=\count270
+\Gm@cntv=\count271
+\c@Gm@tempcnt=\count272
 \Gm@bindingoffset=\dimen143
 \Gm@wd@mp=\dimen144
 \Gm@odd@mp=\dimen145
@@ -176,7 +182,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen148
 \Gm@layouthoffset=\dimen149
 \Gm@layoutvoffset=\dimen150
-\Gm@dimlist=\toks17
+\Gm@dimlist=\toks20
 )
 
 ! LaTeX Error: File `listliketab.sty' not found.
@@ -188,17 +194,17 @@ Enter file name:
 ! Emergency stop.
 <read *> 
          
-l.7 \usepackage
-               {array}^^M
+l.6 ^^M
+       
 *** (cannot \read from terminal in nonstop modes)
 
  
 Here is how much of TeX's memory you used:
- 7306 strings out of 479719
- 113740 string characters out of 5880574
- 402287 words of memory out of 5000000
- 25294 multiletter control sequences out of 15000+600000
+ 7356 strings out of 479720
+ 114435 string characters out of 5880600
+ 407226 words of memory out of 5000000
+ 25341 multiletter control sequences out of 15000+600000
  469259 words of font info for 28 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 60i,0n,63p,212b,36s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 65i,0n,67p,233b,36s stack positions out of 10000i,1000n,20000p,200000b,200000s
+No pages of output.
