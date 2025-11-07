@@ -51,7 +51,17 @@
     <script type="text/javascript" src="./img/modernizr.custom.js"></script>
     <script type="text/javascript" src="./js/ekko-lightbox.min.js"></script>
 
-
+    <script>
+        function toggleContent(event) {
+          event.preventDefault(); // prevent the link from jumping
+          const content = document.getElementById('myContent');
+          if (content.style.display === 'none') {
+            content.style.display = 'block';
+          } else {
+            content.style.display = 'none';
+          }
+        }
+    </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -109,7 +119,7 @@
 
                     <div class="col-sm-5" style="margin:10px;">
                         <p class="lead">
-                            <br><strong style="color: #c0392b;">Research Assistant Professor</strong>
+                            <br><strong style="color: #c0392b;">Assistant Research Professor</strong>
                             <br>Siebel School of Computing and Data Science<br>University of Illinois, Urbana-Champaign<br>
                             <br><span style="font-size:16px;">Senior Principal Research Scientist, Optum AI, UnitedHealthGroup (2022-25)</span>
                             <br><span style="font-size:16px;">Research Scientist, Apple Inc. (2020-22)</span>
@@ -125,6 +135,49 @@
 
                             <b style="font-size:16px;"><i>Keywords</i></b>: Adaptive health intervention, Mobile
                             Sensing, Context-aware computing, Reinforcement learning, User-centered design<br><br><br>
+                            
+                            <b style="font-size:16px;"><a href="./files/cv/cv_mashfiqui_rabbi_20250825.pdf">CV</a></b> | 
+                            <b style="font-size:16px;"><a href="https://scholar.google.com/citations?user=TjQI6gIAAAAJ&hl=en">Google
+                                    Scholar</a></b> | 
+                            <b style="font-size:16px;"><a href="#" onclick="toggleContent(event)">Short bio</a></b> 
+                            <br>
+
+                            <div id="myContent" style="display: none; margin-top: 10px;">
+                                I am a research assistant professor at the computer science department of University of Illinois, Urbana-Champaign. 
+                                Before that, I was a senior principal research scientist at Optum AI, UnitedHealthGroup (2022-2025) and an Applied Research Scientist at Health AI at Apple, Inc (2020-2022). From 2016-19, 
+                                I was a postdoc at Harvard University, where I was advised by <a href="http://people.seas.harvard.edu/~samurphy/">Susan
+                                    Murphy</a>. I completed my PhD at Cornell University (2016). My PhD advisor was <a href="http://www.cs.cornell.edu/~tanzeem/">Tanzeem
+                                    Chourdhury</a>. I also had the opportunity to work with many amazing collaborators (<a
+                                    href="https://www.cs.dartmouth.edu/~campbell/">Andrew Campbell</a>,
+                                <a href="http://www.pedjaklasnja.com/">Predrag Klasnja</a>, <a href="http://niclane.org/">Nic
+                                    Lane</a>, <a href="https://www.linkedin.com/in/lama-nachman-3107263/">Lama Nachman</a>,
+                                <a href="https://www.egr.msu.edu/~mizhang/">Mi Zhang</a>). I received my bacheor degree in
+                                computer science from Bangladesh University of Enigeering and Technology (BUET). <br><br>
+                            </div>
+
+                            <br><br>
+                            <div class="row">
+                                <div class="col-sm-3" style="margin:0px;">
+                                    <img src="img/New-Course-Icon-01.png" alt="icon" width="100" height="100"><br>
+                                </div>
+            
+                                <div class="col-sm-9" style="margin-top: 15px;">
+                                    <b style="font-size:16px;color: #c0392b;">CS-598: AI applied to behavioral health</b><br>
+                                    If you are here for the <b>AI applied to behavioral health</b> course see this course <a href="https://bouncy-peripheral-77e.notion.site/CS-598-AI-applied-to-behavior-health-2a4a440abeaa801a839dcef4924962ca">webpage</a>.<br><br>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-sm-3" style="margin:0px;">
+                                    <img src="img/join-us.png" alt="icon" width="100" height="100"><br>
+                                </div>
+            
+                                <div class="col-sm-9" style="margin-top: 28px;">
+                                    <b style="font-size:16px;color: #c0392b;">Want to join our lab?</b><br>
+                                    Please see this <a href="https://bouncy-peripheral-77e.notion.site/FAQ-2a4a440abeaa8024af2df8943e1b8ecd">FAQ</a> page.<br><br>
+                                </div>
+                            </div>
+
 
                             <!--
                                 Methodologically, I lie between <b>machine leanring (ML)</b> and <b>human computer interaction (HCI)</b>; ML is used to learn human behavior from phone data and adapt interventions. HCI ensures the interventions are actually used by people. HCI also helps to inform future improvements that ML algorithms need to address.<br><br><br>
@@ -140,57 +193,50 @@
                                     Scholar</a></b> <br><br><br>
                              -->
 
-                            <b style="font-size:16px;"><a href="./files/cv/cv_mashfiqui_rabbi_20250825.pdf">CV</a></b> | 
-                            <b style="font-size:16px;"><a href="https://scholar.google.com/citations?user=TjQI6gIAAAAJ&hl=en">Google
-                                    Scholar</a></b> <br><br><br>
+                            
+                            
+                            
 
-                            <b style="font-size:16px;">Short bio</b><br>
-                            I am a research assistant professor at the computer science department of University of Illinois, Urbana-Champaign. 
-                            Before that, I was a senior principal research scientist at Optum AI, UnitedHealthGroup (2022-2025) and an Applied Research Scientist at Health AI at Apple, Inc (2020-2022). From 2016-19, 
-                            I was a postdoc at Harvard University, where I was advised by <a href="http://people.seas.harvard.edu/~samurphy/">Susan
-                                Murphy</a>. I completed my PhD at Cornell University (2016). My PhD advisor was <a href="http://www.cs.cornell.edu/~tanzeem/">Tanzeem
-                                Chourdhury</a>. I also had the opportunity to work with many amazing collaborators (<a
-                                href="https://www.cs.dartmouth.edu/~campbell/">Andrew Campbell</a>,
-                            <a href="http://www.pedjaklasnja.com/">Predrag Klasnja</a>, <a href="http://niclane.org/">Nic
-                                Lane</a>, <a href="https://www.linkedin.com/in/lama-nachman-3107263/">Lama Nachman</a>,
-                            <a href="https://www.egr.msu.edu/~mizhang/">Mi Zhang</a>). I received my bacheor degree in
-                            computer science from Bangladesh University of Enigeering and Technology (BUET). <br><br>
+                            <!-- <b style="font-size:16px;">Short bio</b><br> -->
+                            
 
                         </p>
                     </div>
                     <div class="col-sm-3 col-sm-offset-1">
                         <img src="./img/mash.png" class="img-responsive">
-                        <div class="container">
+                        <div class="container" style="width: 400px;">
                             <br>
-                            <h4><a href="#tf-talks">Past and upcoming invited talks</a></h4>
+                            <h4><a href="#tf-talks">News</a></h4>
                             <ul>
-                                <li> <strong>Aug, 2024</strong>: <a href="https://engineering.virginia.edu/link-lab-research-day-2023/speakers/breakout-session-speakers">Computer Science Seminar</a> at
+                                <li> <strong>May, 2025</strong>: I joined University of Illinois, Urbana-Champaign as an assistant research professor
+                                    </li>
+                                <li> <strong>Aug, 2024</strong>: Invited talk at  <a href="https://engineering.virginia.edu/link-lab-research-day-2023/speakers/breakout-session-speakers">Computer Science Seminar</a> at
                                     University of Illinois, Urbana-Champaign</li>
-                                <li> <strong>Oct, 2023</strong>: <a href="https://engineering.virginia.edu/link-lab-research-day-2023/speakers/breakout-session-speakers">Link Lab research day</a> at
+                                <li> <strong>Oct, 2023</strong>: Invited talk at <a href="https://engineering.virginia.edu/link-lab-research-day-2023/speakers/breakout-session-speakers">Link Lab research day</a> at
                                     University of Virginia</li>
-                                <li> <strong>Nov, 2019</strong>: <a href="https://hcii.cmu.edu/news/seminars">HCII seminar</a> at
+                                <li> <strong>Nov, 2019</strong>: Invited talk at <a href="https://hcii.cmu.edu/news/seminars">HCII seminar</a> at
                                         CMU</li>
-                                <li> <strong>Oct, 2019</strong>: <a href="https://mhealth.research.chop.edu/">mHealth Research Affinity Group</a> at
+                                <li> <strong>Oct, 2019</strong>: Invited talk at <a href="https://mhealth.research.chop.edu/">mHealth Research Affinity Group</a> at
                                         Children's Hospital of Philadelphia</li>
-                                <li> <strong>Oct, 2019</strong>: <a href="https://ems.sph.harvard.edu/MasterCalendar/EventDetails.aspx?data=hHr80o3M7J63Ik7vlOQWugJMqKNVajDQsLWMiFd9cpKBr%2bDDQxW88BcMjcVbvt4H">HIV working group.</a> at
+                                <li> <strong>Oct, 2019</strong>: Invited talk at <a href="https://ems.sph.harvard.edu/MasterCalendar/EventDetails.aspx?data=hHr80o3M7J63Ik7vlOQWugJMqKNVajDQsLWMiFd9cpKBr%2bDDQxW88BcMjcVbvt4H">HIV working group.</a> at
                                     Harvard Biostatistics Dept</li>[<a href="https://www.dropbox.com/s/bprsv7co7zifp3p/HIV_workgroup_talk_Oct_4.pptx?dl=0">slides</a>]
-                                <li> <strong>Sep, 2019</strong>: <a href="https://sbmi.uth.edu/">School of Biomedical Informatics</a> at 
+                                <li> <strong>Sep, 2019</strong>: Invited talk at <a href="https://sbmi.uth.edu/">School of Biomedical Informatics</a> at 
                                     University of Texas Health Science Center</li>
-                                <li> <strong>June, 2019</strong>: <a href="https://turi.com/"> Turi</a> at
+                                <li> <strong>June, 2019</strong>: Invited talk at <a href="https://turi.com/"> Turi</a> at
                                        Apple Inc., Seattle, WA [<a href="https://www.dropbox.com/s/izmvz2w8lt9dcf9/Prevention_center_talk_May_2.pptx?dl=0">slides</a>]</li>
-                                <li> <strong>April, 2019</strong>: <a href="https://www.mccormick.northwestern.edu/computer-science/events/?eid=548165"> CS+X colloquium</a> at
+                                <li> <strong>April, 2019</strong>: Invited talk at <a href="https://www.mccormick.northwestern.edu/computer-science/events/?eid=548165"> CS+X colloquium</a> at
                                     Northwestern University [<a href="https://www.dropbox.com/s/izmvz2w8lt9dcf9/Prevention_center_talk_May_2.pptx?dl=0">slides</a>]</li>
-                                <li> <strong>May 2, 2018</strong>: <a href="http://www.prevention.psu.edu/"> Prevention Center</a> at
+                                <li> <strong>May 2, 2018</strong>: Invited talk at <a href="http://www.prevention.psu.edu/"> Prevention Center</a> at
                                     Penn State University [<a href="https://www.dropbox.com/s/izmvz2w8lt9dcf9/Prevention_center_talk_May_2.pptx?dl=0">slides</a>]</li>
-                                <li> <strong>Oct 23, 2017</strong>: <a href="https://methodology.psu.edu/"> Methodology Center</a> at
+                                <li> <strong>Oct 23, 2017</strong>: Invited talk at <a href="https://methodology.psu.edu/"> Methodology Center</a> at
                                     Penn State University [<a href="https://www.dropbox.com/s/oqut65qcconixbf/Methodology_center_retreat_V2.pptx?dl=0">slides</a>]</li>
-                                <li> <strong>Sep 26, 2017</strong>: <a href="https://www.dropbox.com/s/8ng6fios1hu46oi/Stats_300_presentation.pptx?dl=0">
+                                <li> <strong>Sep 26, 2017</strong>: Invited talk at <a href="https://www.dropbox.com/s/8ng6fios1hu46oi/Stats_300_presentation.pptx?dl=0">
                                         Statistics seminar</a> at Harvard University [<a href="https://www.dropbox.com/s/oqut65qcconixbf/Methodology_center_retreat_V2.pptx?dl=0">slides</a>]</li>
                 
-                                <li> <strong>Sep, 2013</strong>: <a href="http://www.cs.rochester.edu/dept/seminar/view/HCI%20Seminar/2013/11/20/845/Mashfiqui_Rabbi/MyBehavior_Automating_Personalized_Health_Feedback_Using_a_Multiarm_Bandit_Model.html">
+                                <li> <strong>Sep, 2013</strong>: Invited talk at <a href="http://www.cs.rochester.edu/dept/seminar/view/HCI%20Seminar/2013/11/20/845/Mashfiqui_Rabbi/MyBehavior_Automating_Personalized_Health_Feedback_Using_a_Multiarm_Bandit_Model.html">
                                         HCI seminar</a> at University of Rochester [<a href="https://www.dropbox.com/s/cowp7aysimk7ir2/breakfast_series.pptx?dl=0">slides</a>]</li>
                 
-                                <li> <strong>Sep, 2011</strong>: <a href="http://infosci.cornell.edu/graduate-seminar-series/graduate-seminar-series-archive">
+                                <li> <strong>Sep, 2011</strong>: Talk at <a href="http://infosci.cornell.edu/graduate-seminar-series/graduate-seminar-series-archive">
                                         Brown-bag series</a> at Cornell University [<a href="https://www.dropbox.com/s/x3lz3mzwyiq4t7t/ubicomp2105_v7.pptx?dl=0">slides</a>]</li>
                             </ul>
                         </div>
@@ -212,46 +258,81 @@
                     <br>
                     <h1><a href="#tf-works">Projects</a></h1>
                     <br>
-                    <div id="tf-MyBehavior" style="margin-top: -80px;padding-top: 80px;">
+
+                    <div id="tf-SMA" style="margin-top: -100px;padding-top: 130px;">
                         <div class="row">
                             <div class="col-sm-3" style="margin:10px;">
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <a class="example-image-link" href="./img/mybehavior_p_website.png" data-lightbox="example-1"><img
-                                                class="example-image" src="./img/mybehavior_p_website.png" alt="image-1" /></a>
-                                        <i>(Click on the image to enlarge)</i>
+                                        <a class="example-image-link" href="./img/sma.png" data-lightbox="example-2"><img
+                                                class="example-image" src="./img/sma.png" alt="image-1" style="width:100%;height=auto;" /></a>
+                                        <i></i>
                                     </div>
                                 </div>
                             </div>
     
                             <div class="col-sm-7">
-                                <h3 style="margin-top:10px;"><a href="#tf-MyBehavior" class="page-scroll">MyBehavior: Automatically turning mobile data into easy-to-follow suggestions using machine learning</a></h3>
+                                <h3 style="margin-top:10px;"><a href="#tf-SMA" class="page-scroll">Leveraging AI to reduce clinician burden in group-medical visits</a></h3>
+    
                                 <p class="intro">
-                                    MyBehavior learns a user's physical activity and dietary behavior from phone data and
-                                    suggests personalized changes to these behaviors. <strong>MyBehavior is the first
-                                    app
-                                    that combined mobile data and reinforcement
-                                        learning to provide personalized health recommendations.</strong> <br>
+                                    Group medical visits are an innovative care delivery method where multiple patients see multiple providers at the same time. Such group visits can 
+                                    be specially useful for rural settings where patients and providers live far from the clinic, and setting up 1-on-1 visits with patients and 
+                                    providers are difficult. <br><br>
+                                    The task of enrolling the right patients into the right groups in a timely manner is difficult and burdensome to providers. 
+                                    Additionally, in lifestyle medicine, tailoring interventions to patient needs and routines is essential for effective 
+                                    self-management. The provision of social support in group visits can be more effective if patients with similar challenges 
+                                    can form groups. While electronic medical records and wearable data can help in stratifying patients and forming 
+                                    effective support groups, the analysis of such data is currently highly burdensome for providers. We hypothesize that modern 
+                                    AI models can be used to transform such data into feature representations  of patient similarity and automate the process of 
+                                    patient stratification and group formation. This will enable providers to focus on other aspects of care, thus ensuring better 
+                                    overall outcomes for patients and the healthcare system.
+
+                                    <br><br>
                                 </p>
-                                <br> 
-                                <p>
-                                    See our <a href="http://mhealth.jmir.org/article/viewFile/mhealth_v3i2e42/2">JMIR</a>
-                                    and
-                                    <a href="http://pac.cs.cornell.edu/pubs/ubicomp_mybehavior.pdf">Ubicomp 2015</a> papers
-                                    for more details on MyBehavior. We recently
-                                    extended MyBehavior for <u>chronic back pain</u> and published an article in
-                                    <a href="https://www.jmir.org/2018/10/e10147/pdf">JMIR</a>. 
-                                </p>
-                                <div id="video_player">
-                                    <a href="https://www.youtube.com/watch?v=RmZJ71ZVenY" rel="prettyPhoto" title="My YouTube Video">
-                                        <img src="./img/how_to_mybehavior.png" alt="YouTube" width="120">
-                                    </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <div id="tf-SpineSurveyAI" style="margin-top: -100px;padding-top: 130px;">
+                        <div class="row">
+                            <div class="col-sm-3" style="margin:10px;">
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <a class="example-image-link" href="./img/spine-surgery-AI.png" data-lightbox="example-2"><img
+                                                class="example-image" src="./img/spine-surgery-AI.png" alt="image-1" style="width:100%;height=auto;" /></a>
+                                        <i></i>
+                                    </div>
                                 </div>
+                            </div>
+    
+                            <div class="col-sm-7">
+                                <h3 style="margin-top:10px;"><a href="#tf-SpineSurveyAI" class="page-scroll">Early prediction of spine surgery recovery states using foundation models</a></h3>
+    
+                                <p class="intro">
+                                    This project aims to evaluate the feasibility of using a foundation model to predict actionable states 
+                                    for patients undergoing spine surgery. These actionable states are gold-standard movement and gait metrics 
+                                    that clinicians rely on to evaluate recovery progress after surgery. Currently, such assessments occur 
+                                    only during periodic clinic visits, which may miss optimal intervention times. Our goal is to use wearable 
+                                    technology to predict these metrics early and continuously, enabling clinicians to intervene effectively and 
+                                    improve patient outcomes, such as reducing readmission rates.
+
+                                    <br><br>
+                                </p>
+                                <!-- <p>
+                                    Related papers: <a href="https://www.researchprotocols.org/2018/7/e166/">study protocol</a>, 
+                                    <a href="https://www.researchprotocols.org/2018/7/e166/">results from micro-randomized trial</a>, 
+                                    <a href="https://www.researchprotocols.org/2018/7/e166/">just-in-time intervention to improve substance use </a>.
+                                    See below the ADAPTS project that uses SARA for yonger adults with lukemia. A recent <a href="https://public.era.nih.gov/grantfolder/viewCommonsStatus.era?applId=10795237&urlsignature=v1$28013464$1$ScWt-OJwPspHDk6PXLqUxEhqAFVURD8QZzmTgqVT3aORt6sItE4ZucEgdn28PCqRSnx-G_1vfHJBzmjjK72ZqZ2ga9fLvbLPxJ-aS2WZNvwltLUh63gij8rwmk5rWqLpBnDEbBrrpWGEFeikMwUhyEgM0IrhyoR33WJCWSyMap2XAfGoYLKohpqI9I6aWIxO_QiiiKJaIsf1UI-ebsh_pYrrleQ8JFm1UGUFxqkrdkfU5ROJKxaxxMYGCW_XVPOph6DHBfF7e8a3NSvHlZrmEteBuuQuT2ZpNrVo7jRN6WxyjsNWDvjMW1j0j1-fWBcPdLSwxLrj_D0AG7uxQOJxRw..">R01</a> grant is founded that
+                                    will SARA on sickle cell disease patients.
+                                </p> -->
                                 <br>
                             </div>
                         </div>
                     </div>
                     <br>
+                    
                     <div id="tf-SARA" style="margin-top: -100px;padding-top: 130px;">
                         <div class="row">
                             <div class="col-sm-3" style="margin:10px;">
@@ -286,35 +367,42 @@
                         </div>
                     </div>
                     <br>
-                    <div id="tf-revibe" style="margin-top: -100px;padding-top: 130px;">
-                        <div class="row">
-                            <div class="col-sm-3" style="margin:10px;">
-                                <div class="carousel-inner">
-                                    <div class="item active">
-                                        <a class="example-image-link" href="./img/subgoals2.png" data-lightbox="example-3"><img
-                                                class="example-image" src="./img/subgoals.png" alt="image-1" /></a>
-                                        <i>(Click on the image to enlarge)</i>
-                                    </div>
-                                </div>
-                            </div>
-    
-                            <div class="col-sm-7">
-                                <h3 style="margin-top:10px;"><a href="#tf-revibe" class="page-scroll">Sub-goals: Automated personalized plan to achieve a daily health goal</a></h3>
-    
-                                <p class="intro">
-                                    The sub-goals app divides a daily goal into several sub-goals where each subgoal is assigned to a specific time segment of the day. When all sub-goals are added together, 
-                                    they sum to the daily goal. These sub-goals also reduce the burden as they ask users to be active when they are usually active. The time horizon to complete each subgoal is sooner 
-                                    than the daily goal, thus users will likely discount those rewards less and be more motivated. 
-                                    <strong>In iOS17, Apple shipped a <a href="https://support.apple.com/guide/watch/create-a-custom-plan-in-apple-fitness-apd07cef67fc/watchos"> feature similar to sub-goals</a> in their Fitness+ app.</strong>
-                                </p>
-                                <br>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <br>
                     <div id="tf-pastwork" style="margin-top: -100px;padding-top: 130px;">
 
                         <div class="row">
+
+                            <div class="col-sm-2" style="margin:0px;">
+                                <div class="thumbnail">
+                                    <img src="./img/mybehavior_p_website.png"" alt="Generic placeholder thumbnail">
+                                    <a data-toggle="modal" data-target="#mybehaviormodal">
+                                        <div class="overlay2">
+                                            <div class="text2">Click to<br>see more</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="caption">
+                                    <h3>MyBehavior</h3>
+                                    <p>Auto-personalized physical activity suggestions that are low-burden to follow</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-2" style="margin:0px;">
+                                <div class="thumbnail">
+                                    <img src="./img/subgoals.png"" alt="Generic placeholder thumbnail">
+                                    <a data-toggle="modal" data-target="#subgoalmodal">
+                                        <div class="overlay2">
+                                            <div class="text2">Click to<br>see more</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="caption">
+                                    <h3>Sub-goal app</h3>
+                                    <p>The sub-goals app divides a daily physical activity goal into a personalized subgoal plan</p>
+                                </div>
+                            </div>
+
                             <div class="col-sm-2" style="margin:0px;">
                                 <div class="thumbnail">
                                     <img src="./img/revibe_image.png" alt="Generic placeholder thumbnail">
@@ -360,7 +448,10 @@
                                     <p>Repeated glucose spikes can develop type-2 diabetes (T2D) or worsen existing T2D. This project creates a just-in-time walking intervention to curb glucose spikes before they reach harmful levels.</p>
                                 </div>
                             </div>
+                        </div>
 
+
+                        <div class="row">
                             <div class="col-sm-2" style="margin:0px;">
                                 <div class="thumbnail">
                                     <img src="./img/pi2_messages.png" alt="Generic placeholder thumbnail">
@@ -431,10 +522,9 @@
                                 </div>
                             </div>
                             -->
-                        </div>
-                        <br>
+                        
 
-                        <div class="row">
+                        
                             <!--
                             <h3 style="margin:10px;font-size:25px;"><a href="#tf-pastwork" class="page-scroll">Other
                                     projects</a></h3>
@@ -489,7 +579,8 @@
                                     </p>
                                 </div>
                             </div>
-
+                        </div>
+                        <div class="row">
                             <div class="col-sm-2" style="margin:0px;">
                                 <div class="thumbnail">
                                     <img src="./img/neurophone2.png" alt="Generic placeholder thumbnail">
@@ -1550,6 +1641,78 @@
                     <div class="col-md-6">
                         <img src="./img/pi2message1.png" alt="Generic placeholder thumbnail" class="image"><br>
                         <img src="./img/pi2message2.png" alt="Generic placeholder thumbnail" class="image">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="subgoalmodal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 class="modal-title">Sub-goals: Automated personalized plan to achieve a daily health goal</h3>
+                </div>
+                <div class="modal-body row">
+                    <div class="col-md-6">
+                        <p class="intro">
+                            The sub-goals app divides a daily goal into several sub-goals where each subgoal is assigned to a specific time segment of the day. When all sub-goals are added together, 
+                            they sum to the daily goal. These sub-goals also reduce the burden as they ask users to be active when they are usually active. The time horizon to complete each subgoal is sooner 
+                            than the daily goal, thus users will likely discount those rewards less and be more motivated. 
+                            <strong>In iOS17, Apple shipped a <a href="https://support.apple.com/guide/watch/create-a-custom-plan-in-apple-fitness-apd07cef67fc/watchos"> feature similar to sub-goals</a> in their Fitness+ app.</strong>
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./img/subgoals2.png" alt="Generic placeholder thumbnail" class="image">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="mybehaviormodal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 class="modal-title">MyBehavior: Automatically turning mobile data into easy-to-follow suggestions using machine learning</h3>
+                </div>
+                <div class="modal-body row">
+                    <div class="col-md-6">
+                        <p class="intro">
+                            MyBehavior learns a user's physical activity and dietary behavior from phone data and
+                            suggests personalized changes to these behaviors. <strong>MyBehavior is the first
+                            app
+                            that combined mobile data and reinforcement
+                                learning to provide personalized health recommendations.</strong> <br>
+                        </p>
+                        <br> 
+                        <p>
+                            See our <a href="http://mhealth.jmir.org/article/viewFile/mhealth_v3i2e42/2">JMIR</a>
+                            and
+                            <a href="http://pac.cs.cornell.edu/pubs/ubicomp_mybehavior.pdf">Ubicomp 2015</a> papers
+                            for more details on MyBehavior. We recently
+                            extended MyBehavior for <u>chronic back pain</u> and published an article in
+                            <a href="https://www.jmir.org/2018/10/e10147/pdf">JMIR</a>. 
+                        </p>
+                        <div id="video_player">
+                            <a href="https://www.youtube.com/watch?v=RmZJ71ZVenY" rel="prettyPhoto" title="My YouTube Video">
+                                <img src="./img/how_to_mybehavior.png" alt="YouTube" width="120">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./img/mybehavior_p_website.png" alt="Generic placeholder thumbnail" class="image">
                     </div>
                 </div>
                 <div class="modal-footer">
